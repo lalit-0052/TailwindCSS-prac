@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./src/output.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./src/output.css">
     <title>Document</title>
 </head>
 <body class="bg-slate-900 grid place-content-center h-screen">
@@ -26,5 +27,26 @@
     <button class="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-sky-600 transition">
   Buy Now
 </button>
+<div  class="text-center my-4">
+    <p class="text-white md:text-green-500 sm:text-red-600">Lorem Ipsum  dolor</p>
+</div>
+
+<!-- // responsive card -->
+ <div class="mt-3">
+    <div class="max-w-sm mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl">
+       <div class="md:flex">
+         <div>
+            <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzRs9Go8b1UETXuVv99N72AhV4oB1Anxxxmw&s" alt="">
+         </div>
+        <div class="p-8">
+            <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">An Awesome card</div>
+        <a class="block mt-1 text-lg font-medium text-black hover:text-orange-600" href="#">Tailwind CSS is amazing once you understand the power of it</a>
+    <p class="mt-2 text-slate-500">Tailwind CSS is a <span class="bg-yellow-500 p-[2px] px-[14px]">CSS Framework</span> </p>   
+    </div>
+       </div>
+    </div>
+ </div>
+
+
 </body>
 </html>
